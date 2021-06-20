@@ -1,0 +1,305 @@
+/* Css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Navigation Bar  */
+.navbar {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.911);
+  border-radius: 50px;
+  margin: 2px;
+position: fixed;
+  
+}
+/* Navbar:logo and image */
+#logo {
+  margin: 7px 10px;
+}
+#logo img {
+  height: 35px;
+}
+/* Navbar:list */
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 0.9rem;
+}
+.navbar ul li a {
+  color: rgba(255, 255, 255, 0.911);
+  display: block;
+  padding: 6px 18px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  color: white;
+  background-color: rgba(133, 129, 129, 0.493);
+  display: block;
+  transition: ease-in-out 0.3s;
+}
+/* Home section */
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: -70px 223px;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("/non2.jpg") no-repeat center center/cover;
+  height: 72%;
+  width: 100%;
+  z-index: -1;
+  
+  padding: -10px;
+}
+#home h1 {
+  color: white;
+  text-align: center;
+}
+#home p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 0.9rem;
+}
+#home div {
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 15px;
+  padding: 34px;
+  width: 600px;
+}
+/* services section */
+.s-head-s{
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  padding: 5px;
+  font-size: 2rem;
+  border: 2px solid black;
+  background-color: rgba(250, 244, 244, 0.705);
+  border-radius: 25px;
+  border-style: dashed;}
+
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #services img {
+    height: 177px;
+    margin: 5px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  
+  #item1 {
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: content-box;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 20px;
+  }
+  #item2 {
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: content-box;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 20px;
+  }
+  #item3 {
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: content-box;
+    background: rgba(0, 0, 0, 0.247);
+    border-radius: 20px;
+  }
+  #services p {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: 400;
+}
+  
+
+
+
+/* speciaity section */
+.s-head2 {
+  margin-bottom: 30px;
+}
+#special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#special img {
+  height: 300px;
+  margin: 5px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.item1 {
+  padding: 10px;
+  margin: 40px;
+  text-align: center;
+  justify-content: center;
+  box-sizing: content-box;
+  background: rgba(0, 0, 0, 0.247);
+  border-radius: 20px;
+}
+.item2 {
+  padding: 10px;
+  margin: 40px;
+  text-align: center;
+  justify-content: center;
+  box-sizing: content-box;
+  background: rgba(0, 0, 0, 0.247);
+  border-radius: 20px;
+}
+.item3 {
+  padding: 10px;
+  margin: 40px;
+  text-align: center;
+  justify-content: center;
+  box-sizing: content-box;
+  background: rgba(0, 0, 0, 0.247);
+  border-radius: 20px;
+}
+
+  #special p {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: 400;
+}
+.s-head{
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+  font-size: 2rem;
+  border: 2px solid black;
+  background-color: rgba(250, 244, 244, 0.705);
+  border-radius: 25px;
+  border-style: dashed;}
+/* contact section */
+.contact {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 5px;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 15px;
+  padding: 5px 5px;
+  background: rgba(0, 0, 0, 0.247);
+  border-radius: 20px;
+}
+#contact-box input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+#contact-box form {
+  width: 40%;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+/* footer */
+.footer {
+  color: white;
+  background-color: black;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 10px;
+  font-weight: 100;
+  font-size: small;
+}
+
+/* utility classes */
+.h-primary {
+  font-family: "Rubik", sans-serif;
+  font-size: 2.8rem;
+  padding: 12px;
+}
+.btn {
+  font-family: "Rubik", sans-serif;
+  margin: 5px;
+  padding: 6px 10px;
+  border: 1.9px solid #191a19ee;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-style: ridge;
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: rgb(7, 228, 7);
+  color: white;
+  transform: scale(1.05);
+  transform-style: preserve-3d;
+  transition: ease-in-out 0.1s;
+}
+.btn2 {
+  font-family: "Rubik", sans-serif;
+  margin: 5px;
+  padding: 6px 10px;
+  border: 1.9px solid #191a19ee;
+  border-radius: 7px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-style: ridge;
+  font-weight: 600;
+  display: flex;
+  margin: 5px auto;
+}
+.btn2:hover {
+  background-color: rgb(4, 159, 248);
+  color: white;
+  transform: scale(1.05);
+  transform-style: preserve-3d;
+  transition: ease-in-out 0.1s;
+}
+.h-secondary {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  padding: 4px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+.center {
+  text-align: center;
+}
+
+

@@ -1,0 +1,123 @@
+
+@media screen and (max-width:970px){
+#services{
+    display: block;
+}
+#special{
+    display: block;
+}
+.s-head-s{
+    margin-top: 219px;
+}
+
+}
+
+
+
+@media screen and (max-width:670px){
+    #home div{
+        width: 450px;
+        padding: 16px;
+    }
+
+
+
+}
+
+@media screen and (max-width:520px){
+    #home div{
+        width: 380px;
+        height: 150px;
+    padding: 28px;    }
+    #home h1{
+        font-size: 25px;
+
+    }
+
+
+}
+@media screen and (max-width:450px){
+    #home div{
+        width: 300px;
+        height: 200px;
+        padding: 14px;
+    }
+    #home h1{
+        font-size: 25px;
+
+    }
+
+
+}
+@media screen and (max-width:420px){
+    .navbar{
+        flex-direction: column;
+        
+    }
+    #logo img {
+        height: 24px;
+    }
+    .navbar ul li a{
+        padding: 0px 17px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .navbar{
+    width: 95%;
+        
+    }}
+    @media screen and (max-width:375px){
+        .navbar{
+            width: 95%;
+    }
+        .s-head-s{
+            margin-top: 80px;
+        }}
+        @media screen and (max-width:360px){
+            .navbar{
+            width: 97%;
+            
+                
+            }
+            #services img{
+height: 160px;
+            }
+            .s-head-s{
+                margin-top: 80px;
+            }
+        }
+        @media screen and (max-width:280px){
+.navbar{width: 92%;
+padding: 0px 10px;
+}
+.navbar ul li a{
+    padding: 0px 10px;
+    font-size: 11px;
+}
+#home div{
+    width: 200px;
+    height: 150px;
+    padding: 7px;
+}
+#home h1{
+    font-size: 15px;
+
+}
+#home p{
+    font-size: 9px;
+}
+#services img{
+    height: 110px;
+                }
+                #special img{
+                    height: 200px;
+                                }
+
+}
+        
+        
+
+        
+            
+        
